@@ -1,0 +1,33 @@
+.env
+.env.local
+
+# --- Security / Secrets ---
+# Hides all .plist files (WARNING: See note below)
+*.plist
+
+# --- MacOS System Clutter ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Xcode User Settings (Personal Clutter) ---
+# You generally do not want to push your personal window layouts/breakpoints
+*.xcuserdata
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+
+# --- Build Generated Files (Heavy Clutter) ---
+# These are regenerated every time you run the app, do not push them.
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+
+# --- Dependencies (Optional but Recommended) ---
+# If you use CocoaPods, it is often cleaner to not push the Pods folder
+# Pods/
