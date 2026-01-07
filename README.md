@@ -1,16 +1,3 @@
 # mightbeascript
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Might Be A Script is a cross-platform screenwriting app (Windows, macOS, iPadOS) designed around a clean, Apple-style writing experience. It features a structured screenplay editor with automatic INT./EXT. scene handling, a left sidebar for scene navigation, and a floating bottom-center formatting toolbar inspired by Figma and Apple Freeform. Each scene supports a swipe-in storyboard panel with pen, eraser, color, and size controls for quick visual planning. Scripts are block-based, Fountain-compatible, saved locally first, and securely synced to per-user cloud storage with proper permissions. The focus is minimal UI, zero clutter, offline reliability, and a calm, aesthetically pleasing workflow for writers.
